@@ -32,7 +32,7 @@ class FixedStack implements IntStack {
 class IFTest {
     public static void main(String[] args) {
 
-        FixedStack fsl = new FixedSTack(5);
+        FixedStack fsl = new FixedStack(5);
 
         for (int i = 0; i < 5; i++) fsl.push(i);
 
